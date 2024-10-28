@@ -1,5 +1,6 @@
 <?php
 $number = intval(readline("Введите цифру от 1 до 5: "));
+switch ($number) {
     case 1:
         echo "Вы ввели единицу!\n";
         break;
@@ -17,4 +18,5 @@ $number = intval(readline("Введите цифру от 1 до 5: "));
         break;
     default:
         echo "Неправильный ввод. Пожалуйста, введите цифру от 1 до 5.\n";
+}
 ?>
