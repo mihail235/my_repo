@@ -1,7 +1,7 @@
 <?php
 $number = intval(readline("Введите цифру от 1 до 5: "));
     case 1:
-        echo "Вы ввели единицу.\n";
+        echo "Вы ввели единицу!\n";
         break;
     case 2:
         echo "Вы ввели двойку.\n";
